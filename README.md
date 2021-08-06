@@ -68,6 +68,8 @@ Atenção Especial para as variaveis
 STATUS_NGINX & MYSQL_STRING 
 onde tiver host-nginx e host-mysql substituir para o host da maquina que está executando os respequitivos serviços
 
+Na variavel LOG_NGINX vai colocar o caminho do arquivo log "access.log" do nginx
+
 ### 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
