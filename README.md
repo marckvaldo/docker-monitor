@@ -1,8 +1,7 @@
-# Docker Minitor 
+# Docker Monitor 
 
 <div style="background-color: #f0f0f0; height:20vh; display: flex; flex-direction: row; justify-content: center;">
-<img src="https://github.com/marckvaldo/docker-php/blob/main/www/public/imagens/laravel.png">
-<img src="https://github.com/marckvaldo/docker-php/blob/main/www/public/imagens/docker.png">
+<img src="https://github.com/marckvaldo/docker-monitor/blob/main/imagens/Grafana.png">
 </div>
 
 ![GitHub](https://img.shields.io/github/license/marckvaldo/docker-php)
@@ -45,10 +44,15 @@ $ docker-compose up -d
 
 # O serviço grafana inciará na porta:3000 - acesse <http://localhost:3000>
 # Para logar no grafana digite as credenciais encontradas no arquivo .env nas variaves "GF_SECURITY_ADMIN_USER" e "GF_SECURITY_ADMIN_PASSWORD".
+```
 
 ### 🛠 Configuração
-
 Todas as configurações do projeto estão no arquivo .env
+
+Atenção Especial para as variaveis 
+STATUS_NGINX
+MYSQL_STRING 
+onde tiver host-nginx e host-mysql substituir para o host da maquina que está executando os respequitivos serviços
 
 ### 🛠 Tecnologias
 
