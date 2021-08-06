@@ -1,4 +1,4 @@
-# Docker Minitor 
+# Docker Monitor 
 
 <div style="background-color: #f0f0f0; height:20vh; display: flex; flex-direction: row; justify-content: center;">
 <img src="https://github.com/marckvaldo/docker-monitor/blob/main/imagens/Grafana.png">
@@ -44,6 +44,7 @@ $ docker-compose up -d
 
 # O serviço grafana inciará na porta:3000 - acesse <http://localhost:3000>
 # Para logar no grafana digite as credenciais encontradas no arquivo .env nas variaves "GF_SECURITY_ADMIN_USER" e "GF_SECURITY_ADMIN_PASSWORD".
+```
 
 ### 🛠 Configuração
 Todas as configurações do projeto estão no arquivo .env
