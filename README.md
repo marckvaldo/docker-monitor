@@ -47,10 +47,14 @@ $ docker-compose up -d
 ```
 ### * Algumas imagens
 <div style="background-color: #f0f0f0; height:20vh; display: flex; flex-direction: row; justify-content: center;">
+	#### Painel Docker
 	<img src="https://github.com/marckvaldo/docker-monitor/blob/main/imagens/Docker.png">
+	#### Painel Mysql
 	<img src="https://github.com/marckvaldo/docker-monitor/blob/main/imagens/Mysql.png">
 	<img src="https://github.com/marckvaldo/docker-monitor/blob/main/imagens/Mysql2.png">
+	#### Painel Nginx
 	<img src="https://github.com/marckvaldo/docker-monitor/blob/main/imagens/Nginx.png">
+	#### Painel Sistema
 	<img src="https://github.com/marckvaldo/docker-monitor/blob/main/imagens/Sistema.png">
 	<img src="https://github.com/marckvaldo/docker-monitor/blob/main/imagens/Sistema2.png">
 </div>
