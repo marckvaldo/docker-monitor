@@ -45,14 +45,30 @@ $ docker-compose up -d
 # O serviço grafana inciará na porta:3000 - acesse <http://localhost:3000>
 # Para logar no grafana digite as credenciais encontradas no arquivo .env nas variaves "GF_SECURITY_ADMIN_USER" e "GF_SECURITY_ADMIN_PASSWORD".
 ```
+### 🚀 Algumas imagens
+
+#### Painel Docker
+<img src="https://github.com/marckvaldo/docker-monitor/blob/main/imagens/Docker.png">
+
+#### Painel Mysql
+<img src="https://github.com/marckvaldo/docker-monitor/blob/main/imagens/Mysql.png">
+<img src="https://github.com/marckvaldo/docker-monitor/blob/main/imagens/Mysql2.png">
+
+#### Painel Nginx
+<img src="https://github.com/marckvaldo/docker-monitor/blob/main/imagens/Nginx.png">
+
+#### Painel Sistema
+<img src="https://github.com/marckvaldo/docker-monitor/blob/main/imagens/Sistema.png">
+<img src="https://github.com/marckvaldo/docker-monitor/blob/main/imagens/Sistema2.png">
 
 ### 🛠 Configuração
 Todas as configurações do projeto estão no arquivo .env
 
 Atenção Especial para as variaveis 
-STATUS_NGINX
-MYSQL_STRING 
+STATUS_NGINX & MYSQL_STRING 
 onde tiver host-nginx e host-mysql substituir para o host da maquina que está executando os respequitivos serviços
+
+Na variavel LOG_NGINX vai colocar o caminho do arquivo log "access.log" do nginx
 
 ### 🛠 Tecnologias
 
