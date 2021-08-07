@@ -9,7 +9,7 @@
 
 
 ## Descrição do Projeto
-Esse projeto tem o intuito de monitorar os containes do projeto <a href="https://github.com/marckvaldo/docker-php">docker-php</a> (um ambiente docker para o laravel) ....
+Esse projeto tem o intuito de monitorar os containes do projeto <a href="https://github.com/marckvaldo/docker-php">docker-php</a> (um ambiente docker para o laravel ou projetos PHP) ....
 
 <h4>
     <a href="https://grafana.com/">🔗 Grafana</a>
@@ -28,7 +28,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 [Git](https://git-scm.com)<br/>
 [Docker](https://docs.docker.com/engine/install/). 
 
-Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+Além disso é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
 ### 🎲 Rodando
 
