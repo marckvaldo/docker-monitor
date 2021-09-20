@@ -38,7 +38,7 @@ services:
     networks:
       - app-network  
   telegraf:
-    image: telegraf
+    image: telegraf:1.14
     container_name: telegrafMob
     env_file:
       - .env
@@ -47,7 +47,7 @@ services:
     volumes:
       - ./telegraf/telegraf.conf:/etc/telegraf/telegraf.conf:ro
       - /var/run/docker.sock:/var/run/docker.sock:ro
-      #- ${LOG_NGINX}:/var/log/nginx/access.log:ro
+      - ${LOG_NGINX}:/var/log/nginx/access.log:ro
       - ./telegraf/logs:/var/log/telegraf
     networks:
       - app-network    
