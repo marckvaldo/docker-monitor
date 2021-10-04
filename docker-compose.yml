@@ -7,6 +7,7 @@ services:
     volumes:
       - ./influxdb/data:/var/lib/influxdb
       - ./influxdb/config/influxdb.conf:/etc/influxdb/influxdb.conf:ro
+    restart: always  
     ports:
       - 8086:8086
     expose:
@@ -22,7 +23,8 @@ services:
       - app-network
   grafana:
     image: grafana/grafana:8.1.0
-    user: "0" 
+    user: "0"
+    restart: always 
     ports: 
       - "3000:3000"
     links:
@@ -40,6 +42,7 @@ services:
   telegraf:
     image: telegraf:1.14
     container_name: telegrafMob
+    restart: always
     env_file:
       - .env
     links:
